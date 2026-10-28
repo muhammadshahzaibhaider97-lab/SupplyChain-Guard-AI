@@ -1,0 +1,5 @@
+streamlit
+openai
+tavily-python
+pydeck
+python-dotenv

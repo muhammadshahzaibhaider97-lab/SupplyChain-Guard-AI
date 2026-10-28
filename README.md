@@ -1,19 +1,25 @@
 # 🛡️ SupplyChain Guard AI
 
-> **Autonomous enterprise cascade-loss simulator, 3D geographic threat radar, and costed rerouting engine powered by NVIDIA Nemotron on Nebius Token Factory.**
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
-Built for the **Nebius x NVIDIA Global AI Hackathon (Best Apps & Agents Track)**.
+**An autonomous agent that turns a supply chain disruption into a dollar-quantified, costed rerouting decision.**
+Built for the Nebius x NVIDIA Global AI Hackathon (Best Apps and Agents track).
 
----
+## Quick Start (Local Execution)
 
-## ⚡ Overview
-
-When a critical supply chain chokepoint breaks—whether it is a semiconductor foundry in Hsinchu or a maritime bottleneck in the Bab-el-Mandeb Strait—chief procurement officers and CFOs face a high-stakes race against time. They need immediate, actionable answers to two questions:
-1. *What is our dollar-quantified financial exposure for every day of delay?*
-2. *What is the optimal mitigation route right now?*
-
-**SupplyChain Guard AI** automates this entire decision workflow in under a minute, combining dual-tier NVIDIA Nemotron reasoning, real-time Tavily web grounding, 3D Pydeck geospatial maps, and a deterministic financial simulation engine.
-
----
-
-## 🏗️ Architecture & Tech Stack
+1. Extract this zip file into `C:\SupplyChainGuard`
+2. Open Command Prompt and run:
+   ```cmd
+   cd C:\SupplyChainGuard
+   python -m venv .venv
+   .venv\Scripts\activate
+   pip install -r requirements.txt
+   ```
+3. Copy `.env.example` to `.env` and insert your API keys:
+   ```cmd
+   copy .env.example .env
+   ```
+4. Run the Streamlit app:
+   ```cmd
+   streamlit run app_2.py
+   ```
